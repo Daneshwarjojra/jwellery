@@ -6,6 +6,9 @@ html, body {
   content: '';
   display: table; }
 
+a:hover, a:focus {
+  text-decoration: none; }
+
 .iblock {
   display: inline-block; }
 
@@ -54,17 +57,23 @@ html, body {
 .mt80 {
   margin-top: 80px; }
 
+.mt40 {
+  margin-top: 40px; }
+
 .mt30 {
   margin-top: 30px; }
 
 .mt0 {
   margin-top: 0; }
 
-.mb20 {
-  margin-bottom: 20px; }
-
 .mb80 {
   margin-bottom: 80px; }
+
+.mb40 {
+  margin-bottom: 40px; }
+
+.mb20 {
+  margin-bottom: 20px; }
 
 .mb0 {
   margin-bottom: 0; }

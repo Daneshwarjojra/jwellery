@@ -5,12 +5,6 @@ $(document).ready(function() {
     $(this).addClass('active');
   });
 
-  // Banner Slider
-  $('.imageCarousel').on('click', 'img', function() {
-    $('.imageCarousel img.carousel_center').removeClass('carousel_center');
-    $(this).addClass('carousel_center');
-  });
-
   //scrollintoview
   $(".btn-trans").click(function(event) {
     var elementtoScrollToID = $(event.currentTarget).data('scroll-to');
